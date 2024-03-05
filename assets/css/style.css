@@ -984,6 +984,21 @@ button {
     column-gap: 0;
   }
 
+  .home_social {
+    display: flex; 
+    justify-content: center;
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  .home_social-icon {
+    padding-right: 5px;
+    margin: 0 10px 0 0;
+    
+  }
+  
+  
+
   .home_content {
     -ms-grid-columns: 0.25fr 3fr;
     grid-template-columns: 0.25fr 3fr;
@@ -991,6 +1006,7 @@ button {
 
   .home_blob {
     width: 180px;
+    display: none;
   }
 
   .skills_title {

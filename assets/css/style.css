@@ -917,6 +917,25 @@ button {
   .footer .box-container .box .share a {
     padding: 1.2rem;
   }
+
+  .home_blob {
+    display: none;
+  }
+
+  .home_social {
+    display: flex; 
+    justify-content: center;
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  .home_social-icon {
+    padding-right: 10px;
+    margin: 0 10px 0 0; 
+  }
+  .home_content {
+    margin-left: 2rem;
+  }
 }
 
 /* footer section ends */
@@ -992,16 +1011,15 @@ button {
   }
   
   .home_social-icon {
-    padding-right: 5px;
+    padding-right: 10px;
     margin: 0 10px 0 0;
     
   }
-  
-  
 
   .home_content {
     -ms-grid-columns: 0.25fr 3fr;
     grid-template-columns: 0.25fr 3fr;
+    margin-left: 2rem;
   }
 
   .home_blob {

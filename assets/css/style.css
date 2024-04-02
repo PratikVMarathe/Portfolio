@@ -664,18 +664,19 @@ button {
 
 .portfolio_img {
   width: 256px;
-  border-radius: 0.5rem;
+  border-radius: 3rem;
   -ms-grid-column-align: center;
   justify-self: center;
 }
 
 .portfolio_title {
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
   margin-bottom: var(--mb-0-5);
 }
 
 .portfolio_description {
-  margin-bottom: var(--mb-0-75);
+  margin-bottom: var(--mb-0-5);
+  font-size: var(--h3-font-size);
 }
 
 .portfolio_button:hover .button_icon {
@@ -1204,7 +1205,7 @@ button {
   }
 
   .portfolio_img {
-    width: 320px;
+    width: 230px;
   }
 
   .portfolio_content {
@@ -1263,7 +1264,7 @@ button {
   .portfolio_content {
     -webkit-column-gap: 5rem;
     -moz-column-gap: 5rem;
-    column-gap: 5rem;
+    column-gap: 0rem;
   }
 
   .swiper-portfolio-icon {

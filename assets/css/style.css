@@ -158,6 +158,12 @@ button {
   font-size: var(--big-font-size);
 }
 
+.section_subtitle1 {
+  display: block;
+  font-size: var(--h1-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
 .section_subtitle {
   display: block;
   font-size: var(--h2-font-size);
@@ -165,7 +171,8 @@ button {
 }
 
 .section_title,
-.section_subtitle {
+.section_subtitle,
+.section_subtitle1 {
   text-align: center;
 }
 
@@ -748,6 +755,12 @@ button {
   color: var(--text-color-light);
 }
 
+.contact_person{
+  text-align: justify;
+  margin-bottom: var(--mb-1);
+  margin-right: 2rem;
+}
+
 .contact_content {
   background-color: var(--input-color);
   border-radius: 0.5rem;
@@ -1097,6 +1110,9 @@ button {
 
   .section_subtitle {
     margin-bottom: 4rem;
+  }
+  .section_subtitle1{
+    margin-bottom: 1rem;
   }
 
   .header {

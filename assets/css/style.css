@@ -217,7 +217,9 @@ button {
 .nav_toggle {
   font-size: var(--big-font-size);
   color: var(--title-color);
+  font-family: "Sofia", cursive
   font-weight: var(--font-medium);
+  font-style: normal;
 }
 
 .nav_logo:hover {

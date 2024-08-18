@@ -351,7 +351,7 @@ button {
 }
 
 .home_blob-img {
-  width: 190px;
+  width: 145px;
   -o-object-fit: contain;
   object-fit: contain;
 }

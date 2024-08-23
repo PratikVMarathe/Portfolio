@@ -176,6 +176,23 @@ button {
   text-align: center;
 }
 
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 2s;
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+}
+
+@media(prefers-reduced-motion){
+  .hidden{
+    transition: none;
+  }
+}
+
 /* LAYOUT  */
 .container {
   max-width: 968px;
